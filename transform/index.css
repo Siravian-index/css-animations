@@ -1,0 +1,57 @@
+.container {
+  margin-top: 1rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: #2454ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.scale {
+  transition: transform 0.5s;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
+.translate {
+  transition: transform 0.5s;
+
+}
+
+.translate:hover {
+  transform: translate(250px, 215px);
+
+}
+
+.rotate {
+  transform-origin: bottom;
+  transition: transform 5s;
+}
+
+.rotate:hover {
+  /* transform: rotate(180deg); */
+  transform: rotate(4turn);
+}
+
+.skew {
+  transition: transform 0.5s;
+
+}
+
+.skew:hover {
+  transform: skew(20deg);
+}
